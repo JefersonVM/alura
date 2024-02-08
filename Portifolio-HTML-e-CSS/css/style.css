@@ -35,7 +35,7 @@ nav ul li a {
   color: var(--primary-color);
   text-decoration: none;
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -47,6 +47,7 @@ main {
   justify-content: space-between;
   gap: 82px;
   margin-top: 140px;
+  padding: 0 20%;
 }
 
 body {
@@ -57,8 +58,8 @@ body {
   align-items: center;
 }
 
-main .container-rigth {
-  width: 600px;
+.container-left {
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
@@ -69,17 +70,16 @@ main .container-rigth {
   gap: 40px;
 }
 
-main .container-left {
-  width: 600px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container-rigth {
+  height: 50%;
+}
+
+.container-rigth-about {
+  height: 685px;
 }
 
 .minha-foto {
-  width: 467.705px;
-  height: 532px;
-  flex-shrink: 0;
+  width: 500px;
   border-radius: 16px;
   background: url(<path-to-image>),
     lightgray -39.262px -50.143px / 212.432% 124.461% no-repeat;
@@ -99,7 +99,7 @@ main .container-left {
   color: var(--secondary-color);
   text-align: center;
   font-family: var(--font-family-title);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
@@ -118,7 +118,7 @@ main .container-left {
   text-decoration: none;
 
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
@@ -133,7 +133,7 @@ main .container-left {
 h1 {
   color: var(--secondary-color);
   font-family: var(--font-family-title);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: 56px;
@@ -146,7 +146,7 @@ h1 {
 p {
   color: var(--secondary-color);
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
@@ -165,7 +165,7 @@ footer h3 {
   color: var(--background-color);
   text-align: center;
   font-family: var(--font-family);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 36px;
